@@ -1,0 +1,1715 @@
+/* reseteo de estilos iniciales */
+*{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+/* margen pricipal de todas las paginas */
+
+.mar_root_max{
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1rem;
+}
+
+/*  login */
+.bg-login{
+    background: #9980FA;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.login-card{
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 1px solid white;
+}
+
+.login-card input{
+    border-radius: 1rem;
+}
+
+.btn-login{
+    color: white;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    border: 1px solid white;
+    border-radius: 10px;
+} 
+
+.btn_login:hover{
+    color: white;
+}
+
+/* Modal 1 -login */
+.header_M1{
+    background: #8638eb;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.header_M1_h1{
+    font-size: 30px;
+}
+
+.footer_M1{
+    background: #8638eb;
+}
+
+.botones_M1_login{
+    background: #8638eb;
+    color: white;
+}
+
+.botones_M1_login:hover{
+    color: white;
+    font-style: italic;
+}
+
+.modal-subtitle-M1{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+/* Modal 2 -login */
+
+.header_M2{
+    background: #8638eb;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header_M2_h1{
+    font-size: 30px;
+}
+
+.M2_input{
+    border-radius: 1rem;
+}
+
+.botones_M2{
+    background: #8638eb;
+    color: white;
+}
+
+.botones_M2:hover{
+    color: white;
+    font-style: italic;
+}
+.btn_M2_clave{
+    margin-bottom: 10px;
+}
+
+.footer_M2{
+    background: #8638eb;
+}
+
+
+/* Modal 3 */
+.header_M3{
+    background: #8638eb;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header_M1_h1{
+    font-size: 30px;
+}
+
+.M3_input{
+    border-radius: 1rem;
+}
+
+.footer_M3{
+    background: #8638eb;
+}
+
+.botones_M3{
+    background: #8638eb;
+    color: white;
+}
+
+.botones_M3:hover{
+    color: white;
+    font-style: italic;
+}
+
+
+/*Registrar Alumno*/
+
+.container_main_Alumno{
+    background: #9980FA;
+    padding-top: 20px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.title_header{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form_divisor_alumno input{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.form_divisor_alumno select{
+    border-radius: 1rem;
+}
+
+.form_divisor_alumno label{
+    color: white;
+}
+
+.option_color{
+    background: #8c7ae6;
+    color: white;
+}
+
+
+
+.main_box{
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    border-radius: 10px;
+    padding: 10px 50px 50px 10px;
+    border: 1px solid white;
+}
+
+.form_divisor_alumno{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.botones_registrar_alumno{
+    color: white;
+    background: #341f97;
+}
+.botones_registrar_alumno:hover{
+    color: white;
+    font-style: italic;
+}
+
+/*Registrar Profesor*/
+
+.container_main_Profesor{
+    background: #9980FA;
+    padding-top: 20px;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.title_header_Profesor{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.form_divisor_Profesor input{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.form_divisor_Profesor select{
+    border-radius: 1rem;
+}
+
+.form_divisor_Profesor label{
+    color: white;
+}
+
+
+.main_box_Profesor{
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    border-radius: 10px;
+    padding: 10px 50px 50px 10px;
+    border: 1px solid white;
+}
+
+.form_divisor_Profesor{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.botones_registrar_Profesor{
+    color: white;
+    background: #341f97;
+}
+.botones_registrar_Profesor:hover{
+    color: white;
+    font-style: italic;
+}
+
+/* Formulario de recuperacion de credenciales*/
+
+.container_main_rec{
+    background: #9980FA;
+    padding-top: 10rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    padding-bottom: 10rem;
+}
+
+.main_box_rec{
+    background: #8638eb;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 10px;
+    border: 1px solid white;
+}
+
+.header_rec{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form_rec{
+    border-radius: 10px;
+    padding-top: 1rem;
+}
+
+.btn_rec{
+    padding-bottom: 10px;
+}
+
+.form_rec input{
+    border-radius: 1rem;
+    align-items: center;
+}
+.form_rec select{
+    border-radius: 1rem;
+} 
+
+.btn_rec_text{
+    background: #341f97;
+    color: white;
+}
+
+.btn_rec_text:hover{
+    color: white;
+    font-style: italic;
+}
+
+/* pantalla de notificaciones completadas del profesor */
+
+
+.not_completas_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.not_completas_table{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.not_completas_table thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.not_completas_table th,td{
+
+    padding: 20px;
+}
+
+.not_completas_table tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.not_completas_table tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+.not_completas_button{
+    background: #341f97;
+    color: white;
+}
+
+.not_completas_button:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla de notificaciones pendientes del profesor */
+
+
+
+.not_pendientes_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.not_pendientes_table{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.not_pendientes_table thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.not_pendientes_table th,td{
+    padding: 20px;
+}
+
+.not_pendientes_table tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.not_pendientes_table tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+.not_pendientes_button{
+    background: #341f97;
+    color: white;
+}
+
+.not_pendientes_button:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla notificaciones del alumno*/
+
+.not_alumno_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.not_alumno_table{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.not_alumno_table thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.not_alumno_table th,td{
+    padding: 20px;
+}
+
+.not_alumno_table tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.not_alumno_table tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+.not_alumno_button{
+    background: #341f97;
+    color: white;
+}
+
+.not_alumno_button:hover{
+    background: #341f97;
+    color: white;
+}
+
+.not_divisor_alumno{
+    margin-bottom: 5px;
+}
+
+/* pantalla curso profesor */
+
+
+
+.curso_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.curso_divisor_profesor{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.curso_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.curso_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+.curso_table_profesor{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.curso_table_profesor thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.curso_table_profesor th,td{
+    padding: 20px;
+}
+
+.curso_table_profesor tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.curso_table_profesor tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+/* pantalla unidad profesor */
+
+
+
+.unidad_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.unidad_divisor_profesor{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.unidad_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.unidad_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+.unidad_table_profesor{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.unidad_table_profesor thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.unidad_table_profesor th,td{
+    padding: 20px;
+}
+
+.unidad_table_profesor tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.unidad_table_profesor tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+/* pantalla tema profesor */
+
+
+
+.tema_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.tema_divisor_profesor{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tema_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.tema_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+.tema_table_profesor{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tema_table_profesor thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.tema_table_profesor th,td{
+    padding: 20px;
+}
+
+.tema_table_profesor tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.tema_table_profesor tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+/* pantalla subtema profesor */
+
+
+
+.subtema_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.subtema_divisor_profesor{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.subtema_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.subtema_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+.subtema_table_profesor{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.subtema_table_profesor thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.subtema_table_profesor th,td{
+    padding: 20px;
+}
+
+.subtema_table_profesor tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.subtema_table_profesor tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+/* pantalla material profesor */
+
+
+
+.material_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.material_divisor_profesor{
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.material_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.material_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+.material_table_profesor{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.material_table_profesor thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.material_table_profesor th,td{
+    padding: 20px;
+}
+
+.material_table_profesor tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.material_table_profesor tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+/* pantalla modal curso profesor */
+
+.modal_curso_header_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_curso_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.modal_curso_body_profesor input{
+    border-radius: 1rem;
+}
+
+.modal_curso_body_profesor textarea{
+    border-radius: 1rem;
+}
+
+.modal_curso_footer_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_curso_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.modal_curso_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla modal unidad profesor */
+
+.modal_unidad_header_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_unidad_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.modal_unidad_body_profesor input{
+    border-radius: 1rem;
+}
+
+.modal_unidad_body_profesor textarea{
+    border-radius: 1rem;
+}
+
+.modal_unidad_footer_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_unidad_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.modal_unidad_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla modal tema profesor */
+
+.modal_tema_header_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_tema_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.modal_tema_body_profesor input{
+    border-radius: 1rem;
+}
+
+.modal_tema_body_profesor textarea{
+    border-radius: 1rem;
+}
+
+.modal_tema_footer_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_tema_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.modal_tema_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla modal subtema profesor */
+
+.modal_subtema_header_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_subtema_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.modal_subtema_body_profesor input{
+    border-radius: 1rem;
+}
+
+.modal_subtema_footer_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_subtema_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.modal_subtema_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla modal material profesor */
+
+.modal_material_header_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_material_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.modal_material_body_profesor input{
+    border-radius: 1rem;
+}
+
+.modal_material_body_profesor textarea{
+    border-radius: 1rem;
+}
+
+.modal_material_body_profesor select{
+    border-radius: 1rem;
+}
+
+.modal_material_footer_profesor{
+    background: #9c88ff;
+    color: white;
+}
+
+.modal_material_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.modal_material_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla editar profesor */
+
+.edit_profesor_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.edit_profesor_btn{
+    background: #341f97;
+    color: white;
+}
+
+.edit_profesor_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+.edit_profesor_divisor input{
+    border-radius: 1rem;
+}
+
+.edit_profesor_divisor select{
+    border-radius: 1rem;
+}
+
+/* pantalla editar alumno */
+
+.edit_alumno_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.edit_alumno_btn{
+    background: #341f97;
+    color: white;
+}
+
+.edit_alumno_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+.edit_alumno_divisor input{
+    border-radius: 0;
+}
+
+.edit_alumno_divisor select{
+    border-radius: 0;
+}
+
+
+/* pantalla de cursos ofertados del alumno */ 
+
+.ofertado_alumno_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.ofertados_alumno_btn{
+    background: #341f97;
+    color: white;
+}
+
+
+.ofertados_alumno_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+.textarea{
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 300px;
+    height: 150px;
+}
+
+/* mis cursos de alumno */
+
+.miscursos_alumno_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.miscursos_alumno_btn{
+    background: #341f97;
+    color: white;
+}
+
+
+.miscursos_alumno_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+
+/* pantalla contenido de curso alumno*/
+
+.contenido_alumno_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.contenido_alumno_cont{
+    border: 1px solid green;
+    padding-bottom: 2rem;
+}
+
+/* pantalla de desbloqueo unidades */
+
+.desbloqueo_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.desbloqueo_table_profesor{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.desbloqueo_table_profesor thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.desbloqueo_table_profesor th,td{
+    padding: 20px;
+}
+
+.desbloqueo_table_profesor tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.desbloqueo_table_profesor tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+.desbloqueo_btn_profesor{
+    background: #341f97;
+    color: white;
+}
+
+.desbloqueo_btn_profesor:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla estadisticas alumno */
+
+.estadisticas_table_alumno{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.estadisticas_table_alumno thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.estadisticas_table_alumno th,td{
+    padding: 20px;
+}
+
+.estadisticas_table_alumno tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.estadisticas_table_alumno tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+.grafica_alumno{
+    height: 30rem;
+    width: 30rem;
+}
+
+/* pantalla de estadisticas del profesor*/
+
+.grafica_profesor{
+    height: 30rem;
+    width: 30rem;
+}
+
+.estadisticas_title_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.estadisticas_table_profesor{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.estadisticas_table_profesor thead{
+    border-bottom: 2px solid black;
+    background: #a29bfe;
+    color: white;
+}
+
+.estadisticas_table_profesor th,td{
+    padding: 20px;
+}
+
+.estadisticas_table_profesor tr:nth-child(even){
+    background: #dfe6e9;
+}
+
+.estadisticas_table_profesor tr:hover td{
+    background: #9c88ff;
+    color: white;
+}
+
+.estadisticas_tablet_divisor_Profesor{
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.estadisticas_t1_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+/* pantalla modificar de Curso profesor */
+
+.curso_title_modificar_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.curso_modificar_profesor_form input{
+    border-radius: 0;
+}
+
+.curso_modificar_profesor_form select{
+    border-radius: 0;
+}
+
+.curso_modificar_profesor_btn{
+    background: #341f97;
+    color: white;
+}
+
+.curso_modificar_profesor_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla de modificar de unidad profesor */
+
+.unidad_title_modificar_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.unidad_modificar_profesor_form input{
+    border-radius: 0;
+}
+
+.unidad_modificar_profesor_form select{
+    border-radius: 0;
+}
+
+.unidad_modificar_profesor_btn{
+    background: #341f97;
+    color: white;
+}
+
+.unidad_modificar_profesor_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla de modificar tema profesor */
+
+.tema_title_modificar_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.tema_modificar_profesor_form input{
+    border-radius: 0;
+}
+
+.tema_modificar_profesor_form select{
+    border-radius: 0;
+}
+
+.tema_modificar_profesor_btn{
+    background: #341f97;
+    color: white;
+}
+
+.tema_modificar_profesor_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+
+/* pantalla de modificar subtema profesor */
+
+.subtema_title_modificar_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.subtema_modificar_profesor_form input{
+    border-radius: 0;
+}
+
+.subtema_modificar_profesor_form select{
+    border-radius: 0;
+}
+
+.subtema_modificar_profesor_btn{
+    background: #341f97;
+    color: white;
+}
+
+.subtema_modificar_profesor_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla de modificar material profesor */
+
+
+.material_title_modificar_profesor{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.material_modificar_profesor_form input{
+    border-radius: 0;
+}
+
+.material_modificar_profesor_form select{
+    border-radius: 0;
+}
+
+.material_modificar_profesor_btn{
+    background: #341f97;
+    color: white;
+}
+
+.material_modificar_profesor_btn:hover{
+    background: #341f97;
+    color: white;
+}
+
+/* pantalla detalles de cursos ofertados alumno*/
+
+.ofertado_detalles_alumno_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Error
+
+#error{
+    text-align: center;
+}
+
+#boton_Error{
+    background: #8638eb;
+    color: white;
+} */
+
+
+/* estilos de material alumno */
+
+/* .contenido_alumno_title{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+/* Estilos Videos */
+/*
+#vid{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 780px; 
+    height: 580px;
+}
+
+.comp {
+	background: linear-gradient(to bottom, #6c00a2, #8c00d2);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#general{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 0.5px;
+    margin-right: 10px;
+    width: 840px;
+    height: 680px;
+    background: linear-gradient(to bottom, #7b1fd8, #a970ff);
+}
+
+#titulo{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    width: 800px;
+    height: 50px;
+}
+
+#info{
+    margin: auto;
+    float: right;
+    margin-top: 10px;
+    width: 340px;
+    height: 680px;
+    background: linear-gradient(to bottom, #7b1fd8, #a970ff);
+}
+
+#info .t-desc{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+#titulo .titulo {
+	font-family:'Courier New', Courier, monospace;
+}
+
+#info .t-area{
+    margin: auto;
+    margin-top: 10px;
+    width: 318px;
+    height: 600px;
+    resize: none;
+    color: white;
+    border: none;
+    text-align: justify;
+    background: linear-gradient(to bottom, #7b1fd8, #a970ff);
+} */
+
+/* Estilos PDF */
+
+
+/* .material_alumno_pdf{
+
+} */
+
+/* .material_alumno_title{
+    
+} */
+
+.material_alumno_descripcion{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    color: white;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    border: 1px solid red;
+}
+
+.material_alumno_pdfview{
+    width: 100%;
+    height: 50rem;
+    resize: none;
+    color: white;
+    border: none;
+    text-align: justify;
+}
+
+
+
+/*en proceso barra de navegacion profesor*/
+
+.header-Profesor{
+    background: #8638eb;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.header-Profesor a{
+    color: white;
+}
+
+.header-Profesor .dropdown-menu{
+    background: #353b48;
+    border-radius: 5px;
+}
+
+.header-Profesor .dropdown-menu a{
+    color: white;
+}
+
+.header-Profesor .nav-link{
+    color: white;
+}
+
+
+
+.header-Profesor a:hover{
+    background: #8638eb;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    border: 0.5px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/*en proceso barra de navegacion Alumno*/
+
+.header-Alumno{
+    background: #8638eb;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.header-Alumno a{
+    color: white;
+}
+
+.header-Alumno .dropdown-menu{
+    background: #353b48;
+    border-radius: 5px;
+}
+
+.header-Alumno .dropdown-menu a{
+    color: white;
+}
+
+.header-Alumno .nav-link{
+    color: white;
+}
+
+.header-Alumno a:hover{
+    background: #8638eb;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    border: 0.5px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
+/*Footer*/
+
+footer .container-fluid{
+    background: #8638eb;
+    background: linear-gradient(to right,#9c88ff,#8c7ae6);
+    color: white;
+    text-align: center;
+}
+
+.text-p{
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+/*pantalla profesor Principal*/
+
+.principal-profesor{
+    background: white;
+    padding: 5rem 5rem 5rem 5rem;
+}
+
+/*pantalla de error datos login*/
+
+.container_datosErroneos{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #ad3445;
+    text-align: center;
+    align-items: center;
+}
+
+.main_datosErroneos{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* pantalla de correcto datos login */
+
+.container_datosCorrectos{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #38ca64;
+    text-align: center;
+    align-items: center;
+}
+
+.main_datosCorrectos{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/*pantalla correo enviado corectamente*/
+
+.container_correoEnviado{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #38ca64;
+    text-align: center;
+    align-items: center;
+}
+
+.main_correoEnviado{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/*pantalla correo no enviado*/
+.container_correoNoEnviado{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #ad3445;
+    text-align: center;
+    align-items: center;
+}
+
+.main_correoNoEnviado{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* pantalla registro correcto */
+.container_registroCorrecto{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #38ca64;
+    text-align: center;
+    align-items: center;
+}
+
+.main_registroCorrecto{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* pantalla generacion de clave de acceso */
+.container_accesoEnviado{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #38ca64;
+    text-align: center;
+    align-items: center;
+}
+
+.main_accesoEnviado{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* pantalla generaacion de clave de acceso fallida */
+
+.container_accesoNoEnviado{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #ad3445;
+    text-align: center;
+    align-items: center;
+}
+
+.main_accesoNoEnviado{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* pantalla de corracta clave de acceso */  
+
+.container_claveCorrecta{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #38ca64;
+    text-align: center;
+    align-items: center;
+}
+
+.main_claveCorrecta{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* pantalla clave erronea*/
+.container_claveErronea{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #ad3445;
+    text-align: center;
+    align-items: center;
+}
+
+.main_claveErronea{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* pantalla curso agregado*/
+
+.container_cursoAgregado{
+    padding-bottom: 165px;
+    padding-top:165px;
+    background: #38ca64;
+    text-align: center;
+    align-items: center;
+}
+
+.main_cursoAgregado{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Cursos a Detalle */
+
+#unidades{
+    background-color: #ff8fa3;
+    color: white;
+}
+
+.progress-bar_separate{
+    background-color: #fadde1;
+}
+
+#accorditionstyle{
+    background-color: #c9184a;
+    color: white;
+}
+
+.inscripcion_btn{
+    background: #ff0a54;
+    color: white;
+}
+
+.inscripcion_btn:hover{
+    background: #ff0a54;
+    color: white;
+}
+
+.btn-material{
+    background: #ff0a54;
+    color: white;
+}
+
+.btn-material:hover{
+    background: #ff0a54;
+    color: white;
+}
